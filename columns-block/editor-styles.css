@@ -1,0 +1,21 @@
+/**
+ * editor styles for Gutenberg Section block
+ */
+.sh-columns-block {
+}
+
+.sh-columns-block .editor-inner-blocks {
+	padding: 5px 20px;
+}
+
+.sh-columns-block .editor-block-list__block {
+	padding: 0 20px;
+}
+
+.has-column-class-3_1 .editor-block-list__block:first-child, .has-column-class-1_3 .editor-block-list__block:last-child {flex-basis: 75% !important;}
+.has-column-class-1_3 .editor-block-list__block:first-child, .has-column-class-3_1 .editor-block-list__block:last-child {flex-basis: 25% !important;}
+.has-column-class-2_1 .editor-block-list__block:first-child, .has-column-class-1_2 .editor-block-list__block:last-child {flex-basis: 67% !important;}
+.has-column-class-1_2 .editor-block-list__block:first-child, .has-column-class-2_1 .editor-block-list__block:last-child {flex-basis: 33% !important;}
+.has-column-class-5_1 .editor-block-list__block:first-child {flex-basis: 83% !important;}
+.has-column-class-5_1 .editor-block-list__block:last-child {flex-basis: 17% !important;}
+

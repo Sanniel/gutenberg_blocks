@@ -1,0 +1,28 @@
+/**
+ * frontend styles for Gutenberg Section block
+ */
+.wp-block-gutenberg-blocks-columns-block>div {
+	overflow: hidden;
+}
+
+
+@media (max-width: 767px) {
+.wp-block-column {flex-basis: 100%;}
+}
+
+@media (min-width: 767px) {
+.has-column-class-3_1 > .wp-block-column:first-child, .has-column-class-1_3 > .wp-block-column:last-child {flex-basis: 75%; float: left;}
+.has-column-class-1_3 > .wp-block-column:first-child, .has-column-class-3_1 > .wp-block-column:last-child {flex-basis: 25%; float: left;}
+.has-column-class-2_1 > .wp-block-column:first-child, .has-column-class-1_2 > .wp-block-column:last-child {flex-basis: 67%; float: left;}
+.has-column-class-1_2 > .wp-block-column:first-child, .has-column-class-2_1 > .wp-block-column:last-child {flex-basis: 33%; float: left;}
+.has-column-class-5_1 > .wp-block-column:first-child {flex-basis: 83%; float: left;}
+.has-column-class-5_1 > .wp-block-column:last-child {flex-basis: 17%; float: left;}
+}
+
+@media (min-width:767px) {
+.has-column-gap-10>.wp-block-column:not(:first-child) {margin-left: 0px;padding: 0 0 0 20px;}
+.has-column-gap-20>.wp-block-column:not(:first-child) {margin-left: 0px;padding: 0 0 0 30px;}
+.has-column-gap-30>.wp-block-column:not(:first-child) {margin-left: 0px;padding: 0 0 0 40px;}
+.has-column-gap-40>.wp-block-column:not(:first-child) {margin-left: 0px;padding: 0 0 0 50px;}
+.has-column-gap-50>.wp-block-column:not(:first-child) {margin-left: 0px;padding: 0 0 0 60px;}
+}

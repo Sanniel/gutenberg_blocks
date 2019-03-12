@@ -1,0 +1,6 @@
+/**
+ * frontend styles for Gutenberg Section block
+ */
+.wp-block-gutenberg-blocks-section-block>div {
+	overflow: hidden;
+}
