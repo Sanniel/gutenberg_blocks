@@ -1,7 +1,7 @@
 # Gutenberg editor blocks
 Custom blocks for the Gutenberg editor in Wordpress
 
-# Section-block
+## Section-block
 A custom block to be used as frame for other blocks.
 
 Features:
@@ -11,7 +11,7 @@ Features:
 - background image
 - top and bottom padding
 
-# Custom columns-block
+## Custom columns-block
 A block containing customizable columns.
 
 Features:
