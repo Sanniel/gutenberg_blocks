@@ -1,6 +1,8 @@
 # Gutenberg editor blocks
 Custom blocks for the Gutenberg editor in Wordpress
 
+ ## *Deprecated* These blocks were a hack from back in the days when Gutenberg was new and very buggy. Today Gutenberg's native Group & Columns blocks should be used.
+
 ## Section-block
 A custom block to be used as frame for other blocks.
 
